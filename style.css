@@ -1,0 +1,31 @@
+h1 {
+    font-size: 52px;  
+}
+
+html {
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+.list-item {
+    padding: 5px;
+}
+
+#list-group {
+    list-style: none;
+}
+
+#personalpic {
+    width: auto;
+    height: 200px;    
+}
+
+* {    
+    background-color: black;  
+    color:floralwhite;
+    background-image: url(images/background2.jpg);      
+}
+
+
+
