@@ -13,7 +13,7 @@
         <div>
             <h1>Brandon Seth Bowman</h1>
             <img id="personalpic" src="images/personalpic.jpg" alt="Perosnal Head Shot">
-            <p>The <em>man</em>, the <em>myth</em>, the <em>lengend</em>:<strong> Seth</strong>!</p>
+            <p>Learn to <em>code</em> with <strong> Seth Bowman</strong>!</p>
         </div>            
         <div>          
             <h2>Schooling at TrueCoders</h2>
@@ -29,13 +29,118 @@
                 <a href="https://www.google.com" title="Google Search Link">Google search.</a>
             </p>
         </div>
+        <div>
+            <h3>Enter your name and Phone Number:</h3>
+        <section>
+            <div>
+            <label for="newsLetter">Check to sign up for my newsletter!</label>
+            <input type="checkbox" name="newsLetter" id="newsLetter">
+            <input type="submit" value="Send">
+            </div>
+            <label for="name">Name</label>
+            <input type="text" aria-label="Name" id="name" name="name">
+            <label for="phone">Phone Number</label>
+            <input type="tel" aria-label="Phone Number" id="phone" name="phone">
+            <button type="submit">Submit</button>
+        </section>
+        <section>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Seth</td>
+                    <td>Bowman</td>
+                    <td>sbowman@truecoders.io</td>
+                  </tr>
+                  <tr>
+                    <td>Cruz</td>
+                    <td>Sanchez</td>
+                    <td>csanchez@truecoders.io</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        </div>
         <div id="list-one">
             <ul>              
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-                <li>List Item 4</li>
+                <li>Learn to code!</li>
+                <li>Coding is fun!</li>
+                <li>Study hard and go far!</li>
+                <li>Become a web developer today!</li>
             </ul>          
         </div>
+        <section>
+            <h4>Sign up form:</h4>
+            <form>
+                <table>
+                <label for="name">Name</label>
+                <input
+                 type="text" 
+                 name="name" 
+                 id="name"
+                 placeholder="John Doe"
+                 required
+                 />
+
+                <label for="email">E-mail</label>
+                <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder="name@email.com"
+                required
+                />
+
+                <label for="message">Message</label>
+                <textarea 
+                name="message" 
+                id="message" 
+                cols="20" rows="2.5" 
+                placeholder="Type here to send me a message...">
+                </textarea>
+
+                <label for="dob">Date of Birth</label>
+                <input 
+                type="date" 
+                id="dob" 
+                name="dob" 
+                />
+
+                <label for="color">Favorite Color</label>
+                <input 
+                type="color" 
+                name="color" 
+                id="color"
+                />
+                
+                <label for="noneRadio">None of the above</label>
+                <input 
+                type="radio" 
+                name="favoriteTopic" 
+                id="noneRadio" 
+                value="noneOfTheAbove" 
+                checked
+                />
+                
+                <label for="gitRadio">Git</label>
+                <input type="radio" name="favoriteTopic" id="gitRadio" value="git"/>
+
+                <label for="htmlRadio">HTML</label>
+                <input type="radio" name="favoriteTopic" id="htmlRadio" value="html"/>
+
+                <label for="cssRadio">CSS</label>
+                <input type="radio" name="favoriteTopic" id="cssRadio" value="css"/>
+
+                <button type="submit">Submit</button>
+                </table>
+
+            </form>
+        </section>
     </body>
     </html>                    

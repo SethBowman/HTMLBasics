@@ -27,5 +27,9 @@ html {
     background-image: url(images/background2.jpg);      
 }
 
+table {
+    margin: auto;
+}
+
 
 
